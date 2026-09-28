@@ -1,0 +1,21 @@
+{
+  "name": "codex-worktree",
+  "interface": {
+    "displayName": "Codex Worktree"
+  },
+  "plugins": [
+    {
+      "name": "worktree",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kyoubelyu/codex-worktree.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

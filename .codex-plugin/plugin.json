@@ -1,0 +1,19 @@
+{
+  "name": "worktree",
+  "version": "0.1.0+codex.20260928031706",
+  "description": "Create, inspect, switch, and safely remove Git worktrees inside Codex CLI.",
+  "author": {
+    "name": "Kyoube Lyu"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Worktree",
+    "shortDescription": "Manage Git worktrees inside Codex CLI.",
+    "longDescription": "Keep your conversation while creating or switching Git worktrees. Includes worktree listing, status, and safe removal.",
+    "developerName": "Kyoube Lyu",
+    "websiteURL": "https://github.com/kyoubelyu/codex-worktree",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Help me manage my Git worktrees."
+  }
+}
